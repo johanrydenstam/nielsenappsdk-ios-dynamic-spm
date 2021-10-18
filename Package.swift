@@ -7,13 +7,13 @@ let package = Package(
     name: "NielsenAppApi",
     products: [
         .library(
-            name: "NielsenNoIdAppApi",
-            targets: ["NielsenNoIdAppApi"]
+            name: "NielsenNoAdAppApi",
+            targets: ["NielsenNoAdAppApi"]
         ),
     ],
     dependencies: [
     ],
     targets: [
-        .binaryTarget(name: "NielsenNoIdAppApi", path: "products/GlobalNoId/NielsenAppApi.xcframework"),
+        .binaryTarget(name: "NielsenNoAdAppApi", path: "products/GlobalNoAd/NielsenAppApi.xcframework"),
     ]
 )
